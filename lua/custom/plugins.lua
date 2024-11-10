@@ -24,9 +24,14 @@ local plugins = {
         lazy = false
     },
     {
-        "github/copilot.vim",
+        "OXY2DEV/markview.nvim",
         lazy = false
     },
+    {
+        "Isrothy/neominimap.nvim",
+        enabled = true,
+        lazy = false,
+    }
 }
 
 return plugins
