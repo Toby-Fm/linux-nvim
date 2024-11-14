@@ -19,3 +19,13 @@ end
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
+
+
+
+--vim.api.nvim_set_hl(0, "@comment", { fg = "#89b4fa" })
+--vim.cmd('highlight @comment guifg=#89b4fa')
+--vim.cmd('highlight Comment guifg=#89b4fa')
+
+--vim.cmd [[highlight @comment guifg=#89b4fa]]
+--vim.cmd [[highlight Comment guifg=#89b4fa]]
+--vim.cmd [[highlight @comment guifg=#89b4fa]]

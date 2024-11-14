@@ -31,7 +31,11 @@ local plugins = {
         "Isrothy/neominimap.nvim",
         enabled = true,
         lazy = false,
-    }
+    },
+    {
+        "skywind3000/asyncrun.vim",
+        lazy = false,
+    },
 }
 
 return plugins
